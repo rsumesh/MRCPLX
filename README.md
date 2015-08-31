@@ -7,16 +7,16 @@ These files were used to generate the data (in case of simulations) and obtain r
 
 #Installation and use:
 Download the matlab_code and data directories in the MRCPLX repository to your location of choice. All MATLAB files (in matlab_code directory) that begin with name sc_* are script files and can be run from the MATLAB editor or command window. The rest *.m files are functions called by these scripts. A brief overview of the functionality of the various MATLAB scripts is given below.<br />
-1. sc_generate_simulated_data.m: Generates simulated data on which various estimators can be tested (sample data generated from this script have been provided in the data directory). This script generates simulated data files with names t2s_data_sim.mat (simulated T2* data), t2_data_sim.mat (T2 data) and t1_data_sim.mat (T1 data).
-2. sc_compare_r2s_fits_simulations.m: Script that is used to generate results from various T2* estimators.
-3. sc_compare_r2_fits_simulations.m: Script that is used to generate results from various T2 estimators.
-4. sc_compare_r1_fits_simulations.m: Script that is used to generate results from various T1 estimators.
-5. sc_benchmark_real_t1.m: This script estimates the execution times of various T1 estimation techniques reported in the article. This uses t1_benchmarking_data.mat from the data folder for the analysis.
-6. sc_benchmark_real_t2.m: This script estimates the execution times of various T2 estimation techniques reported in the article. This uses t2_benchmarking_data.mat from the data folder for the analysis.
-7. sc_benchmark_real_t2s.m: This script estimates the execution times of various T2* estimation techniques reported in the article. This uses t2s_benchmarking_data.mat from the data folder for the analysis.
-8. sc_benchmark_t2s_multi_rx.m: This script estimates the execution times of two T2* estimation techniques that mimic usage of multi-receive datasets. This uses t2s_mrx_benchmarking_data.mat from the data folder for the analysis.
-9. sc_benchmark_t1_multi_rx.m: This script estimates the execution times of two T1 estimation techniques that mimic usage of multi-receive datasets. This uses t1_mrx_benchmarking_data.mat from the data folder for the analysis.
-
+1. sc_generate_simulated_data.m: Generates simulated data on which various estimators can be tested (sample data generated from this script have been provided in the data directory). This script generates simulated data files with names t2s_data_sim.mat (simulated T2* data), t2_data_sim.mat (T2 data) and t1_data_sim.mat (T1 data).<br />
+2. sc_compare_r2s_fits_simulations.m: Script that is used to generate results from various T2* estimators.<br />
+3. sc_compare_r2_fits_simulations.m: Script that is used to generate results from various T2 estimators.<br />
+4. sc_compare_r1_fits_simulations.m: Script that is used to generate results from various T1 estimators.<br />
+5. sc_benchmark_real_t1.m: This script estimates the execution times of various T1 estimation techniques reported in the article. This uses t1_benchmarking_data.mat from the data folder for the analysis.<br />
+6. sc_benchmark_real_t2.m: This script estimates the execution times of various T2 estimation techniques reported in the article. This uses t2_benchmarking_data.mat from the data folder for the analysis.<br />
+7. sc_benchmark_real_t2s.m: This script estimates the execution times of various T2* estimation techniques reported in the article. This uses t2s_benchmarking_data.mat from the data folder for the analysis.<br />
+8. sc_benchmark_t2s_multi_rx.m: This script estimates the execution times of two T2* estimation techniques that mimic usage of multi-receive datasets. This uses t2s_mrx_benchmarking_data.mat from the data folder for the analysis.<br />
+9. sc_benchmark_t1_multi_rx.m: This script estimates the execution times of two T1 estimation techniques that mimic usage of multi-receive datasets. This uses t1_mrx_benchmarking_data.mat from the data folder for the analysis.<br />
+<br />
 Please modify the paths in these files as you feel necessary (especially the '/' and '\' operators according to your operating system).
 
 #License:
