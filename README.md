@@ -24,4 +24,4 @@ Please read the associated GPL V3 license.
 
 #Contact information:
 S. Umesh Rudrapatna
-e-mail: umeshrs at gmail.com
+e-mail: umeshrs at gmail
