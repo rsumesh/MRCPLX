@@ -11,7 +11,6 @@ Download the matlab_code and data directories in the MRCPLX repository to your l
 2. sc_compare_r2s_fits_simulations.m: Script that is used to generate results from various T2* estimators.
 3. sc_compare_r2_fits_simulations.m: Script that is used to generate results from various T2 estimators.
 4. sc_compare_r1_fits_simulations.m: Script that is used to generate results from various T1 estimators.
-See each of these individual files (2-4) for details regarding the various techniques available for fitting respective data.
 5. sc_benchmark_real_t1.m: This script estimates the execution times of various T1 estimation techniques reported in the article. This uses t1_benchmarking_data.mat from the data folder for the analysis.
 6. sc_benchmark_real_t2.m: This script estimates the execution times of various T2 estimation techniques reported in the article. This uses t2_benchmarking_data.mat from the data folder for the analysis.
 7. sc_benchmark_real_t2s.m: This script estimates the execution times of various T2* estimation techniques reported in the article. This uses t2s_benchmarking_data.mat from the data folder for the analysis.
@@ -26,4 +25,3 @@ Please read the associated GPL V3 license.
 #Contact information:
 S. Umesh Rudrapatna
 e-mail: umeshrs at gmail.com
-
