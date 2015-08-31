@@ -1,6 +1,6 @@
 ﻿This file contains information related to installation and execution of routines that are part of the MRCPLX github repository.
 MRCPLX repository contains MATLAB scripts and functions and some data related to various techniques that estimate fundamental MRI parameters, namely, T1, T2 and T2*. Some of the routines implemented here work with magnitude data and others work with complex-valued data. The details regarding these methods have been presented in the article
-Improved estimation of MR relaxation parameters using complex-valued data, S Umesh Rudrapatna, C J G Bakker, M A Viergever, A van der Toorn and R M Dijkhuizen
+"Improved estimation of MR relaxation parameters using complex-valued data", S Umesh Rudrapatna, C J G Bakker, M A Viergever, A van der Toorn and R M Dijkhuizen
 
 All the matlab files distributed under MRCPLX were developed and tested under MATLAB 8.3.0.532 (R2014a), running under Linux (Ubuntu 14.04), on a HP Z420 workstation with 4-core x86_64 architecture and 12 GB RAM.
 These files were used to generate the data (in case of simulations) and obtain results reported in the above referenced article.
